@@ -13,12 +13,12 @@ interface BrandHeaderProps {
   ctaHref?: string
 }
 
-export function BrandHeader({ 
-  title, 
+export function BrandHeader({
+  title,
   subtitle,
   showCta = true,
   ctaText,
-  ctaHref = "https://moemail.app"
+  ctaHref = "/"
 }: BrandHeaderProps) {
   const t = useTranslations("emails.shared.brand")
   
